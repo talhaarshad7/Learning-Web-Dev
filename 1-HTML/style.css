@@ -1,0 +1,38 @@
+body {
+  background-image: url("green.jpg");
+  background-size: cover;
+  color: #7ec997;
+}
+p {
+  color: #7ec997;
+}
+
+h1 {
+  color: #4ea26a;
+  text-align: center;
+  font-size: 50px;
+  border: 5px rgba(111, 194, 139, 0.5) solid;
+  cursor: pointer;
+}
+h2 {
+  color: #409b5f;
+}
+ul.nav1 {
+  text-align: right;
+}
+.nav a {
+  font-size: 25px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  color: #7ec997;
+}
+.nav:hover {
+  font-size: 30px;
+}
+p.dec {
+  border: 5px rgba(32, 99, 54, 0.5) solid;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+}

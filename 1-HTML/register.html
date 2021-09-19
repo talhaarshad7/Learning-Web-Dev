@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Welcome to xemon anime</h1>
+    <h2>Fill the form to get connected</h2>
+    <hr><hr>
+    <!-- Use get not post-->
+    <form method="GET">
+    First Name= <input type="text" required name="firstname" ><br>
+    Last Name= <input type="text" required name="lastname"><br>
+    Email= <input type="email" required name="email"><br>
+    Password= <input type="password" minlength="8" name="password"><br>
+    Date of Birth=<input type="date" required name="birthday"><br>
+    Gender= <br><input type="radio" name="gender" value="male" >Male<br>
+    <input type="radio" name="gender" value="female">Female<br>
+    <input type="radio" name="gender" value="other">Other<br>
+    Select Genre:<br>
+    <input type="checkbox" name="action">Action<br>
+    <input type="checkbox" name="romance">Romance<br>
+    <input type="checkbox" name="adventure">Adventure<br>
+    <input type="checkbox" name="mecha">Mecha <br>
+    What you wanna call yourself:<br>
+    <select name="call">
+        <option value="weeb">weeb</option>
+        <option value="otaku">otaku</option>
+        <option value="fan">fan</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Go Go Weeb">
+    <input type="reset" value="done mistake">
+
+    <hr size="10">
+</form>
+</body>
+</html>

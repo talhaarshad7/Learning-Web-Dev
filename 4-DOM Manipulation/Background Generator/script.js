@@ -8,5 +8,5 @@ function setGradient()
     +color1.value+" ,"+color2.value+")";
     css.textContent=body.style.background+";";
 }
-color1.addEventListener("input",setGradient);
+olor1.addEventListener("input",setGradient);
 color2.addEventListener("input",setGradient);
